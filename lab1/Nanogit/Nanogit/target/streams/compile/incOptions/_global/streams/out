@@ -1,0 +1,87 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /home/zb/Main/VALAIS/ANNO2/SEM4/BRDB/lab1/Nanogit/Nanogit/target/scala-3.8.1/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Item$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Item$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Commit$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Nanogit$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Commit.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Commit$$anon$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Repository.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Item.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Repository$$anon$6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Repository$$anon$5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Commit$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Repository$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Item$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Nanogit$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Item$$anon$1.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Item$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Commit$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Nanogit$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Commit.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Commit$$anon$4.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Repository.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Item.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Repository$$anon$6.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Repository$$anon$5.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Commit$$anon$3.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Repository$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Item$$anon$2.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Nanogit$package$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Item$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Item$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Commit$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Nanogit$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Commit.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Commit$$anon$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Repository.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Item.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Repository$$anon$6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Repository$$anon$5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Commit$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Repository$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Item$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Nanogit$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Item$$anon$1.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Item$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Commit$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Nanogit$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Commit.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Commit$$anon$4.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Repository.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Item.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Repository$$anon$6.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Repository$$anon$5.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Commit$$anon$3.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Repository$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Item$$anon$2.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Nanogit$package$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mRolling back changes to class files.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0mRestoring class files: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	Item.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Nanogit$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Commit.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Item$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Nanogit$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Commit.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Commit$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Repository.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Repository$$anon$6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Item$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Item$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Repository$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Commit$$anon$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Repository$$anon$5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Commit$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Nanogit$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Item.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Repository.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /home/zb/Main/VALAIS/ANNO2/SEM4/BRDB/lab1/Nanogit/Nanogit/target/scala-3.8.1/classes.bak[0m

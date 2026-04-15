@@ -1,0 +1,47 @@
+1772618575539:run init
+1772618590394:run commit
+1772618594156:run ls
+1772619123309:run add test.scala
+1772619157818:run commit
+1772619184921:ru ls
+1772619231778:pwd
+1772619235178:run ls
+1772619320974:run commit
+1772619441958:sbt init
+1772619444122:run init
+1772619449907:run add .
+1772619452840:run commit
+1772619467504:run add test.scala
+1772619474516:run commit
+1772619481448:run add test.scala
+1772619563036:run commit
+1772619581352:run add test.scala
+1772619583763:run commit
+1772619611506:run add /src/main/scala/test.scala
+1772619620005:run add ./src/main/scala/test.scala
+1772619623771:run commit
+1772626911662:run add .
+1772626929325:run add README.md
+1772626943866:run add /src/main/scala/test.scala
+1772626950844:run add ./src/main/scala/test.scala
+1772627995715:git commit
+1772628000037:run commit
+1772628055609:run add ./src/main/scala/test.scala
+1772628059443:run commit
+1772628071406:run add ./src/main/scala/test.scala
+1772628080733:run commit
+1772628085178:run add ./src/main/scala/test.scala
+1772628099355:run add ./src/main/scala/test.scala -explain
+1772628104146:run add ./src/main/scala/test.scala --explain
+1772628108804:run add ./src/main/scala/test.scala
+1772628164696:run commit
+1772628231789:git add README.md
+1772628237077:run add README.md
+1772628245383:run add ./src/main/scala/test.scala
+1772628322710:run commit
+1772628327609:run add README.md
+1772628330230:run add ./src/main/scala/test.scala
+1772629421725:run commit
+1772630719997:cd
+1773179050004:run add README.md
+1773179079881:run init

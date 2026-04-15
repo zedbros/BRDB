@@ -1,0 +1,100 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E040] Syntax Error: /home/zb/Main/VALAIS/ANNO2/SEM4/BRDB/lab1/Nanogit/Nanogit/src/main/scala/Nanogit.scala:260:8 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m260 |[0m        current = commit.parent                                   [34m// on met à jour current pour remonter d'un commit en arrière   [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m        ^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m        '=' expected, but unindent found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: /home/zb/Main/VALAIS/ANNO2/SEM4/BRDB/lab1/Nanogit/Nanogit/src/main/scala/Nanogit.scala:281:0 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m281 |[0mend [33mRepository[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0mmisaligned end marker[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: /home/zb/Main/VALAIS/ANNO2/SEM4/BRDB/lab1/Nanogit/Nanogit/src/main/scala/Nanogit.scala:283:53 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m283 |[0m[35m@main[0m [33mdef[0m [36mMain[0m([36mcommand[0m: [35mString[0m, [36marguments[0m: [35mString[0m*) =[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                                     ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                     expression expected but [31mval[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E040] Syntax Error: /home/zb/Main/VALAIS/ANNO2/SEM4/BRDB/lab1/Nanogit/Nanogit/src/main/scala/Nanogit.scala:286:4 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m286 |[0m    [33mcase[0m [32m"init"[0m =>[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m    ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m    '{' expected, but 'case' found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E040] Syntax Error: /home/zb/Main/VALAIS/ANNO2/SEM4/BRDB/lab1/Nanogit/Nanogit/src/main/scala/Nanogit.scala:288:4 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m288 |[0m    [33mcase[0m [32m"log"[0m =>[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m    ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m    unindent expected, but 'case' found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E088] Syntax Error: /home/zb/Main/VALAIS/ANNO2/SEM4/BRDB/lab1/Nanogit/Nanogit/src/main/scala/Nanogit.scala:290:4 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m290 |[0m    [33mcase[0m [32m"ls"[0m =>[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m    ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m    Expected start of definition[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E088] Syntax Error: /home/zb/Main/VALAIS/ANNO2/SEM4/BRDB/lab1/Nanogit/Nanogit/src/main/scala/Nanogit.scala:292:4 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m292 |[0m    [33mcase[0m [32m"show"[0m =>[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m    ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m    Expected start of definition[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E088] Syntax Error: /home/zb/Main/VALAIS/ANNO2/SEM4/BRDB/lab1/Nanogit/Nanogit/src/main/scala/Nanogit.scala:294:4 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m294 |[0m    [33mcase[0m [32m"add"[0m =>[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m    ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m    Expected start of definition[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E088] Syntax Error: /home/zb/Main/VALAIS/ANNO2/SEM4/BRDB/lab1/Nanogit/Nanogit/src/main/scala/Nanogit.scala:296:4 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m296 |[0m    [33mcase[0m [32m"commit"[0m =>[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m    ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m    Expected start of definition[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E088] Syntax Error: /home/zb/Main/VALAIS/ANNO2/SEM4/BRDB/lab1/Nanogit/Nanogit/src/main/scala/Nanogit.scala:298:4 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m298 |[0m    [33mcase[0m other =>[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m    ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m    Expected start of definition[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/zb/Main/VALAIS/ANNO2/SEM4/BRDB/lab1/Nanogit/Nanogit/src/main/scala/Nanogit.scala:245:13 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m245 |[0m    [33mval[0m [36mdb[0m = [33mRedisClient[0m.create(self.remote)  [34m// avec ce remote, on crée un client Redis pour pouvoir communiquer avec le serveur Redis[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m             ^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m             Not found: RedisClient[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: /home/zb/Main/VALAIS/ANNO2/SEM4/BRDB/lab1/Nanogit/Nanogit/src/main/scala/Nanogit.scala:283:0 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m283 |[0m[35m@main[0m [33mdef[0m [36mMain[0m([36mcommand[0m: [35mString[0m, [36marguments[0m: [35mString[0m*) =[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[33mmethod[0m [35mMain[0m cannot be a main method since it cannot be accessed statically[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/zb/Main/VALAIS/ANNO2/SEM4/BRDB/lab1/Nanogit/Nanogit/src/main/scala/Nanogit.scala:285:6 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m285 |[0m  [33mtry[0m command [33mmatch[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m      ^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m      Not found: command - did you mean commit?[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/zb/Main/VALAIS/ANNO2/SEM4/BRDB/lab1/Nanogit/Nanogit/src/main/scala/Nanogit.scala:287:34 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m287 |[0m      [33mRepository[0m.initialize(root, arguments)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                  ^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                  Not found: arguments[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /home/zb/Main/VALAIS/ANNO2/SEM4/BRDB/lab1/Nanogit/Nanogit/src/main/scala/Nanogit.scala:262:4 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m262 |[0m    [33mSystem[0m.err.println([32m"not implemented"[0m)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m    ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m    Line is indented too far to the left, or a `}` is missing[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /home/zb/Main/VALAIS/ANNO2/SEM4/BRDB/lab1/Nanogit/Nanogit/src/main/scala/Nanogit.scala:264:2 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m264 |[0m  [33mdef[0m [36mpull[0m([36mroot[0m: [35mString[0m): [35mUnit[0m =[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m  ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m  Line is indented too far to the left, or a `}` is missing[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /home/zb/Main/VALAIS/ANNO2/SEM4/BRDB/lab1/Nanogit/Nanogit/src/main/scala/Nanogit.scala:265:4 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m265 |[0m    guard(isRepository(root), [32ms"no nanogit repository at [0m${[33mPaths[0m.get([32m"."[0m)}[32m"[0m)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m    ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m    Line is indented too far to the left, or a `}` is missing[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /home/zb/Main/VALAIS/ANNO2/SEM4/BRDB/lab1/Nanogit/Nanogit/src/main/scala/Nanogit.scala:266:4 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m266 |[0m    [33mSystem[0m.err.println([32m"not implemented"[0m)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m    ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m    Line is indented too far to the left, or a `}` is missing[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /home/zb/Main/VALAIS/ANNO2/SEM4/BRDB/lab1/Nanogit/Nanogit/src/main/scala/Nanogit.scala:284:2 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m284 |[0m  [33mval[0m [36mroot[0m = [32m"."[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m  ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m  Line is indented too far to the left, or a `}` is missing[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /home/zb/Main/VALAIS/ANNO2/SEM4/BRDB/lab1/Nanogit/Nanogit/src/main/scala/Nanogit.scala:285:2 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m285 |[0m  [33mtry[0m command [33mmatch[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m  ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m  Line is indented too far to the left, or a `}` is missing[0m
+[0m[[0m[33mwarn[0m] [0m[0m6 warnings found[0m
+[0m[[0m[31merror[0m] [0m[0m14 errors found[0m

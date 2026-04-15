@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues>
+    <issue>
+        <user>zedbros</user>
+            <descriptions>
+                dis is de problem
+            </descriptions>
+            <sub-issue>
+                dis is anoder problem of de problem
+            </sub-issue>
+            <history>
+                this person modified this at this time
+            </history>
+        <add_a_comment>
+        <write>
+            blabla
+        </write>
+        <comment></comment>
+        </add_a_comment>
+        <close_issue></close_issue>
+    </issue>
+</issues>

@@ -1,0 +1,7 @@
+[0m[[0m[0mdebug[0m] [0m[0mnot up to date. inChanged = true, force = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mUpdating ProjectRef(uri("file:/home/zb/Main/VALAIS/ANNO2/SEM4/BRDB/lab1/Nanogit/Nanogit/project/"), "nanogit-build")...[0m
+[0m[[0m[0minfo[0m] [0m[0mUpdating nanogit-build[0m
+[0m[[0m[0minfo[0m] [0m[0mResolved nanogit-build dependencies[0m
+[0m[[0m[0minfo[0m] [0m[0mFetching artifacts of nanogit-build[0m
+[0m[[0m[0minfo[0m] [0m[0mFetched artifacts of nanogit-build[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone updating ProjectRef(uri("file:/home/zb/Main/VALAIS/ANNO2/SEM4/BRDB/lab1/Nanogit/Nanogit/project/"), "nanogit-build")[0m

@@ -1,0 +1,58 @@
+# nanogit
+
+A toy version control system.
+
+## Usage
+
+**`init [uri]`**
+
+Initializes a nanogit repository in the current working directory.
+
+`uri`, if specified, denotes the URI of a Redis server that should serve as a remote store.
+
+**`log`**
+
+Enumerates the commits in the history of the directory, from most recent to oldest.
+
+**`ls`**
+
+Enumerates the files under version control.
+
+**`show file [commit]`**
+
+Shows the contents of `file` at the time of a specific commit.
+
+`commit` denotes the commit at which the contents of the file should be shown. It defaults to the latest commit (i.e., the head) if left unspecified.
+
+**`add file...`**
+
+Adds the specified files to the staging area.
+
+#### *Explanation*
+
+When adding a file, two things happen:
+1. A new temporary file is created called staging in the `.nanogit` folder
+2. That same folder is updated with the informations that contains the file that was added as such:
+- `{parent_commit_hash, items:{UUID, modified}, example.scala:{UUID, modified}}` where:
+    - The `parent` commit hash is set to 0, since this is a temporary state and is not yet added to the final workflow.
+    - `items` referes to the entierty of files added
+    - `UUID` is the directory of the file
+    - `modified` is a boolean that determines if the file was simply added with no changes or with changes
+
+
+**`commit`**
+
+Commits the changes in the staging area.
+
+#### *Explanation*
+
+The way each commit is identified, is with a combination of two things:
+1. The current commit hash
+2. The UUIDs of all the staged files
+(No commit will be made, if nothing is staged, or nothing has been added.)
+
+When committed, three things happen:
+1. The index file is update, it now conitains the hash of the latest commit
+2. A changes file will be added, containing the modifications made.
+3. 
+
