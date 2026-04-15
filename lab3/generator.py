@@ -12,10 +12,9 @@ collection = db["mycollection"]
 
 # Generate a random number between 1 and 100 (inclusive)
 for i in range(10):
-	random_x = random.randint(1, 100)
-	random_y = random.randint(1, 100)
+	random_x = random.randint(1,100)
+	random_y = random.randint(1,100)
 	random_user = random.randint(1,10)
-	
 	
 	json_document = {
 		"x-pos" : random_x,
