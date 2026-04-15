@@ -1,6 +1,6 @@
 services:
     mongodb:
-        image: mongodb/mongodb-community-server:latest
+        image: mongo:latest
         container_name: mango
         restart: unless-stopped
         ports:
@@ -9,8 +9,7 @@ services:
             - mongodb:/data/db
         environment:
             MONGO_INITDB_ROOT_USERNAME: mango
-            MONGO_INITDB_ROOT_PASSWORD: ognam
+            MONGO_INITDB_ROOT_PASSWORD: mango
 
 volumes:
     mongodb:
-        external: true
