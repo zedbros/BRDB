@@ -1,0 +1,11 @@
+services:
+  db:
+    image: postgres:latest
+    container_name: post
+    restart: always
+    volumes:
+     - type: tmpfs
+       target: /dev/shm
+    environment:
+      POSTGRES_USER: post
+      POSTGRES_PASSWORD: post
