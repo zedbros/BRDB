@@ -3,28 +3,19 @@
 `docker compose -f docker-compose.yaml -f postgres-docker-compose
 yaml -f redis-docker-compose.yaml up -d`
 
+### Run
+You can easily run each test by choosing your amount of records to insert and test on (n=...) and run the python file.
+
 ### Stop
 `docker stop post|mango|red`
 
-### Accessing CLI
-#### mongo
-`mongosh` ?
-#### postgres
-idk
-#### redis
-`docker compose exec cache redis-cli -a password`
-
 # PROJECT
-Okay… but we need to select one
-- How to choose?
-- What do we need to compare?
-  - Execution speed of CRUD operators (and to know which one are the relevant in your case)
-    - Create
-    - Read
-    - Update
-    - Delete
-  - Development speed
-    - How long to learn the technology
-    - How long to develop something (also depends on how often to change)
 
-#### In short: Comparison.
+
+### Fairness
+To ensure fairness, I made sure:
+- All databases run in docker
+- Only one docker was running at a time when testing
+- My system's power profile remained the same
+
+There is however, one critical flaw. The Postgres database test is async. This is because I was unable to get `psycopg, psycopg2 and pg8000` working for the life of me.
