@@ -2,7 +2,7 @@ import random
 import time
 import pymongo
 
-n = 100000  # number of records to insert into db
+n = 10000  # number of records to insert into db
 
 client = pymongo.MongoClient("mongodb://mango:mango@localhost:27017")
 db = client["mydb"]
@@ -40,7 +40,7 @@ print(f"\n--- READ ---")
 start = time.perf_counter()
 all_docs = list(collection.find())
 elapsed = time.perf_counter() - start
-print(f"\nFind all {len(all_docs):,} records: {elapsed*1000:.2f} ms")
+print(f"Find all {len(all_docs):,} records: {elapsed*1000:.2f} ms")
 
 # Without index
 start = time.perf_counter()
@@ -80,7 +80,7 @@ print(f"\n--- DELETE ---")
 start = time.perf_counter()
 collection.delete_one({"user": 1})
 elapsed = time.perf_counter() - start
-print(f"\nDelete one user=1: {elapsed*1000:.2f} ms")
+print(f"Delete one user=1: {elapsed*1000:.2f} ms")
 
 start = time.perf_counter()
 res = collection.delete_many({"label": "gamma"})

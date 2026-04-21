@@ -68,7 +68,7 @@ async def main():
     start = time.perf_counter()
     all_rows = await conn.fetch("SELECT * FROM benchmark")
     elapsed = time.perf_counter() - start
-    print(f"\nSelect all {len(all_rows):,} records: {elapsed*1000:.2f} ms")
+    print(f"Select all {len(all_rows):,} records: {elapsed*1000:.2f} ms")
 
     # Without index
     start = time.perf_counter()
@@ -92,13 +92,12 @@ async def main():
 
     # --- UPDATE ---
     print("\n--- UPDATE ---")
-
     start = time.perf_counter()
     await conn.execute(
         "UPDATE benchmark SET x_pos = 99 WHERE user_id = 42"
     )
     elapsed = time.perf_counter() - start
-    print(f"\nUpdate one user=42: {elapsed*1000:.2f} ms")
+    print(f"Update one user=42: {elapsed*1000:.2f} ms")
 
     start = time.perf_counter()
     result = await conn.execute(
@@ -116,7 +115,7 @@ async def main():
     start = time.perf_counter()
     await conn.execute("DELETE FROM benchmark WHERE user_id = 1")
     elapsed = time.perf_counter() - start
-    print(f"\nDelete one user=1: {elapsed*1000:.2f} ms")
+    print(f"nDelete one user=1: {elapsed*1000:.2f} ms")
 
     start = time.perf_counter()
     result = await conn.execute("DELETE FROM benchmark WHERE label = 'gamma'")
