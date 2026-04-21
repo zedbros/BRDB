@@ -2,7 +2,7 @@ import random
 import time
 import pymongo
 
-n = 1000  # number of records to insert into db
+n = 100000  # number of records to insert into db
 
 client = pymongo.MongoClient("mongodb://mango:mango@localhost:27017")
 db = client["mydb"]

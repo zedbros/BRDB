@@ -3,7 +3,7 @@ import time
 import json
 import redis
 
-n = 10000
+n = 100000
 
 # Redis is a key-value store: no "tables" or "collections".
 # Strategy: store each record as a JSON string at key "record:<user_id>"
