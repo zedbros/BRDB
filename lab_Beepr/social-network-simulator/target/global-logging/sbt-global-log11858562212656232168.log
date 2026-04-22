@@ -1,0 +1,16 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, Some(caec18d5-732e-4407-9a00-ebaee3396831), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mFetching artifacts of social-network-simulator_3[0m
+[0m[[0m[0minfo[0m] [0m[0mFetched artifacts of social-network-simulator_3[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 6 Scala sources to /home/zb/Main/VALAIS/ANNO2/SEM4/BRDB/BRDB/lab_Beepr/social-network-simulator/target/scala-3.8.1/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/zb/Main/VALAIS/ANNO2/SEM4/BRDB/BRDB/lab_Beepr/social-network-simulator/src/main/scala/Main.scala:10:15 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m10 |[0m  [33mval[0m [36mdriver[0m = [33mGraphDatabase[0m.driver([0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m               ^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m               Not found: GraphDatabase[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed 22 Apr 2026, 14:01:08[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

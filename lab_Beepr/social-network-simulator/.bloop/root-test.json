@@ -1,0 +1,552 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "root-test",
+        "directory": "/home/zb/Main/VALAIS/ANNO2/SEM4/BRDB/BRDB/lab_Beepr/social-network-simulator",
+        "workspaceDir": "/home/zb/Main/VALAIS/ANNO2/SEM4/BRDB/BRDB/lab_Beepr/social-network-simulator",
+        "sources": [
+            "/home/zb/Main/VALAIS/ANNO2/SEM4/BRDB/BRDB/lab_Beepr/social-network-simulator/src/test/scala",
+            "/home/zb/Main/VALAIS/ANNO2/SEM4/BRDB/BRDB/lab_Beepr/social-network-simulator/src/test/scala-3",
+            "/home/zb/Main/VALAIS/ANNO2/SEM4/BRDB/BRDB/lab_Beepr/social-network-simulator/src/test/java",
+            "/home/zb/Main/VALAIS/ANNO2/SEM4/BRDB/BRDB/lab_Beepr/social-network-simulator/target/scala-3.8.1/src_managed/test"
+        ],
+        "dependencies": [
+            "root"
+        ],
+        "classpath": [
+            "/home/zb/Main/VALAIS/ANNO2/SEM4/BRDB/BRDB/lab_Beepr/social-network-simulator/.bloop/root/scala-3.8.1/classes",
+            "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.8.1/scala3-library_3-3.8.1.jar",
+            "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/munit_3/1.3.0/munit_3-1.3.0.jar",
+            "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/neo4j/driver/neo4j-java-driver/6.0.5/neo4j-java-driver-6.0.5.jar",
+            "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/3.8.1/scala-library-3.8.1.jar",
+            "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/junit-interface/1.3.0/junit-interface-1.3.0.jar",
+            "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/munit-diff_3/1.3.0/munit-diff_3-1.3.0.jar",
+            "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/junit/junit/4.13.2/junit-4.13.2.jar",
+            "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/neo4j/bolt/neo4j-bolt-connection/11.0.1/neo4j-bolt-connection-11.0.1.jar",
+            "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/neo4j/bolt/neo4j-bolt-connection-netty/11.0.1/neo4j-bolt-connection-netty-11.0.1.jar",
+            "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/neo4j/bolt/neo4j-bolt-connection-pooled/11.0.1/neo4j-bolt-connection-pooled-11.0.1.jar",
+            "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/neo4j/bolt/neo4j-bolt-connection-routed/11.0.1/neo4j-bolt-connection-routed-11.0.1.jar",
+            "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar",
+            "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/io/projectreactor/reactor-core/3.7.17/reactor-core-3.7.17.jar",
+            "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar",
+            "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar",
+            "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-handler/4.2.12.Final/netty-handler-4.2.12.Final.jar",
+            "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-tcnative-classes/2.0.75.Final/netty-tcnative-classes-2.0.75.Final.jar",
+            "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-common/4.2.12.Final/netty-common-4.2.12.Final.jar",
+            "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-resolver/4.2.12.Final/netty-resolver-4.2.12.Final.jar",
+            "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-buffer/4.2.12.Final/netty-buffer-4.2.12.Final.jar",
+            "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport/4.2.12.Final/netty-transport-4.2.12.Final.jar",
+            "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.2.12.Final/netty-transport-native-unix-common-4.2.12.Final.jar",
+            "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec-base/4.2.12.Final/netty-codec-base-4.2.12.Final.jar"
+        ],
+        "out": "/home/zb/Main/VALAIS/ANNO2/SEM4/BRDB/BRDB/lab_Beepr/social-network-simulator/.bloop/root",
+        "classesDir": "/home/zb/Main/VALAIS/ANNO2/SEM4/BRDB/BRDB/lab_Beepr/social-network-simulator/.bloop/root/scala-3.8.1/test-classes",
+        "resources": [
+            "/home/zb/Main/VALAIS/ANNO2/SEM4/BRDB/BRDB/lab_Beepr/social-network-simulator/src/test/resources",
+            "/home/zb/Main/VALAIS/ANNO2/SEM4/BRDB/BRDB/lab_Beepr/social-network-simulator/target/scala-3.8.1/resource_managed/test"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "3.8.1",
+            "options": [
+                
+            ],
+            "jars": [
+                "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.8.1/scala3-library_3-3.8.1.jar",
+                "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/3.8.1/scala-library-3.8.1.jar",
+                "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.8.1/scala3-compiler_3-3.8.1.jar",
+                "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.8.1/scala3-interfaces-3.8.1.jar",
+                "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.8.1/tasty-core_3-3.8.1.jar",
+                "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/9.9.0-scala-1/scala-asm-9.9.0-scala-1.jar",
+                "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.10.7/compiler-interface-1.10.7.jar",
+                "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.10.7/util-interface-1.10.7.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": false,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": false,
+                "filterLibraryFromClasspath": false
+            },
+            "bridgeJars": [
+                "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.8.1/scala3-sbt-bridge-3.8.1.jar"
+            ]
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "zio.test.sbt.ZTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "weaver.framework.CatsEffect"
+                    ]
+                },
+                {
+                    "names": [
+                        "hedgehog.sbt.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/usr/lib/jvm/java-17-openjdk",
+                "options": [
+                    "-Duser.dir=/home/zb/Main/VALAIS/ANNO2/SEM4/BRDB/BRDB/lab_Beepr/social-network-simulator"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala3-library_3",
+                    "version": "3.8.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala3-library_3",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.8.1/scala3-library_3-3.8.1.jar"
+                        },
+                        {
+                            "name": "scala3-library_3",
+                            "classifier": "sources",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.8.1/scala3-library_3-3.8.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.neo4j.driver",
+                    "name": "neo4j-java-driver",
+                    "version": "6.0.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "neo4j-java-driver",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/neo4j/driver/neo4j-java-driver/6.0.5/neo4j-java-driver-6.0.5.jar"
+                        },
+                        {
+                            "name": "neo4j-java-driver",
+                            "classifier": "sources",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/neo4j/driver/neo4j-java-driver/6.0.5/neo4j-java-driver-6.0.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "3.8.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/3.8.1/scala-library-3.8.1.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/3.8.1/scala-library-3.8.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.neo4j.bolt",
+                    "name": "neo4j-bolt-connection",
+                    "version": "11.0.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "neo4j-bolt-connection",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/neo4j/bolt/neo4j-bolt-connection/11.0.1/neo4j-bolt-connection-11.0.1.jar"
+                        },
+                        {
+                            "name": "neo4j-bolt-connection",
+                            "classifier": "sources",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/neo4j/bolt/neo4j-bolt-connection/11.0.1/neo4j-bolt-connection-11.0.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.neo4j.bolt",
+                    "name": "neo4j-bolt-connection-netty",
+                    "version": "11.0.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "neo4j-bolt-connection-netty",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/neo4j/bolt/neo4j-bolt-connection-netty/11.0.1/neo4j-bolt-connection-netty-11.0.1.jar"
+                        },
+                        {
+                            "name": "neo4j-bolt-connection-netty",
+                            "classifier": "sources",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/neo4j/bolt/neo4j-bolt-connection-netty/11.0.1/neo4j-bolt-connection-netty-11.0.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.neo4j.bolt",
+                    "name": "neo4j-bolt-connection-pooled",
+                    "version": "11.0.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "neo4j-bolt-connection-pooled",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/neo4j/bolt/neo4j-bolt-connection-pooled/11.0.1/neo4j-bolt-connection-pooled-11.0.1.jar"
+                        },
+                        {
+                            "name": "neo4j-bolt-connection-pooled",
+                            "classifier": "sources",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/neo4j/bolt/neo4j-bolt-connection-pooled/11.0.1/neo4j-bolt-connection-pooled-11.0.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.neo4j.bolt",
+                    "name": "neo4j-bolt-connection-routed",
+                    "version": "11.0.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "neo4j-bolt-connection-routed",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/neo4j/bolt/neo4j-bolt-connection-routed/11.0.1/neo4j-bolt-connection-routed-11.0.1.jar"
+                        },
+                        {
+                            "name": "neo4j-bolt-connection-routed",
+                            "classifier": "sources",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/neo4j/bolt/neo4j-bolt-connection-routed/11.0.1/neo4j-bolt-connection-routed-11.0.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.reactivestreams",
+                    "name": "reactive-streams",
+                    "version": "1.0.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "reactive-streams",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar"
+                        },
+                        {
+                            "name": "reactive-streams",
+                            "classifier": "sources",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.projectreactor",
+                    "name": "reactor-core",
+                    "version": "3.7.17",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "reactor-core",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/io/projectreactor/reactor-core/3.7.17/reactor-core-3.7.17.jar"
+                        },
+                        {
+                            "name": "reactor-core",
+                            "classifier": "sources",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/io/projectreactor/reactor-core/3.7.17/reactor-core-3.7.17-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-handler",
+                    "version": "4.2.12.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-handler",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-handler/4.2.12.Final/netty-handler-4.2.12.Final.jar"
+                        },
+                        {
+                            "name": "netty-handler",
+                            "classifier": "sources",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-handler/4.2.12.Final/netty-handler-4.2.12.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-tcnative-classes",
+                    "version": "2.0.75.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-tcnative-classes",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-tcnative-classes/2.0.75.Final/netty-tcnative-classes-2.0.75.Final.jar"
+                        },
+                        {
+                            "name": "netty-tcnative-classes",
+                            "classifier": "sources",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-tcnative-classes/2.0.75.Final/netty-tcnative-classes-2.0.75.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-common",
+                    "version": "4.2.12.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-common",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-common/4.2.12.Final/netty-common-4.2.12.Final.jar"
+                        },
+                        {
+                            "name": "netty-common",
+                            "classifier": "sources",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-common/4.2.12.Final/netty-common-4.2.12.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-resolver",
+                    "version": "4.2.12.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-resolver",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-resolver/4.2.12.Final/netty-resolver-4.2.12.Final.jar"
+                        },
+                        {
+                            "name": "netty-resolver",
+                            "classifier": "sources",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-resolver/4.2.12.Final/netty-resolver-4.2.12.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-buffer",
+                    "version": "4.2.12.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-buffer",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-buffer/4.2.12.Final/netty-buffer-4.2.12.Final.jar"
+                        },
+                        {
+                            "name": "netty-buffer",
+                            "classifier": "sources",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-buffer/4.2.12.Final/netty-buffer-4.2.12.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-transport",
+                    "version": "4.2.12.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-transport",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport/4.2.12.Final/netty-transport-4.2.12.Final.jar"
+                        },
+                        {
+                            "name": "netty-transport",
+                            "classifier": "sources",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport/4.2.12.Final/netty-transport-4.2.12.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-transport-native-unix-common",
+                    "version": "4.2.12.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-transport-native-unix-common",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.2.12.Final/netty-transport-native-unix-common-4.2.12.Final.jar"
+                        },
+                        {
+                            "name": "netty-transport-native-unix-common",
+                            "classifier": "sources",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.2.12.Final/netty-transport-native-unix-common-4.2.12.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-codec-base",
+                    "version": "4.2.12.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-codec-base",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec-base/4.2.12.Final/netty-codec-base-4.2.12.Final.jar"
+                        },
+                        {
+                            "name": "netty-codec-base",
+                            "classifier": "sources",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec-base/4.2.12.Final/netty-codec-base-4.2.12.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalameta",
+                    "name": "munit_3",
+                    "version": "1.3.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "munit_3",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/munit_3/1.3.0/munit_3-1.3.0.jar"
+                        },
+                        {
+                            "name": "munit_3",
+                            "classifier": "sources",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/munit_3/1.3.0/munit_3-1.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalameta",
+                    "name": "junit-interface",
+                    "version": "1.3.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "junit-interface",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/junit-interface/1.3.0/junit-interface-1.3.0.jar"
+                        },
+                        {
+                            "name": "junit-interface",
+                            "classifier": "sources",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/junit-interface/1.3.0/junit-interface-1.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalameta",
+                    "name": "munit-diff_3",
+                    "version": "1.3.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "munit-diff_3",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/munit-diff_3/1.3.0/munit-diff_3-1.3.0.jar"
+                        },
+                        {
+                            "name": "munit-diff_3",
+                            "classifier": "sources",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/munit-diff_3/1.3.0/munit-diff_3-1.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "junit",
+                    "name": "junit",
+                    "version": "4.13.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "junit",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/junit/junit/4.13.2/junit-4.13.2.jar"
+                        },
+                        {
+                            "name": "junit",
+                            "classifier": "sources",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/junit/junit/4.13.2/junit-4.13.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-sbt",
+                    "name": "test-interface",
+                    "version": "1.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "test-interface",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar"
+                        },
+                        {
+                            "name": "test-interface",
+                            "classifier": "sources",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.hamcrest",
+                    "name": "hamcrest-core",
+                    "version": "1.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "hamcrest-core",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+                        },
+                        {
+                            "name": "hamcrest-core",
+                            "classifier": "sources",
+                            "path": "/home/zb/.cache/coursier/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}

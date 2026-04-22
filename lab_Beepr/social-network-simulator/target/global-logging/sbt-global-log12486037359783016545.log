@@ -1,0 +1,11 @@
+[debug] > Exec(__stopWatch network-4, None, None)
+[warn] build source files have changed
+[warn] modified files: 
+[warn]   /home/zb/Main/VALAIS/ANNO2/SEM4/BRDB/BRDB/lab_Beepr/social-network-simulator/build.sbt
+[warn]   /home/zb/Main/VALAIS/ANNO2/SEM4/BRDB/BRDB/lab_Beepr/social-network-simulator/project/metals.sbt
+[warn]   /home/zb/Main/VALAIS/ANNO2/SEM4/BRDB/BRDB/lab_Beepr/social-network-simulator/project/project/metals.sbt
+[warn] Apply these changes by running `reload`.
+[warn] Automatically reload the build when source changes are detected by setting `Global / onChangedBuildSource := ReloadOnSourceChanges`.
+[warn] Disable this warning by setting `Global / onChangedBuildSource := IgnoreSourceChanges`.
+[debug] > Exec(shell, None, None)
+[debug] Forcing garbage collection...
